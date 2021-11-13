@@ -22,8 +22,8 @@ int _tmain(int argc, _TCHAR* argv[])
 //	char *q=joinb("duck", "soup");
 //	cout << p << endl;
 //	cout << q << endl;
-//	delete p;
-//	delete q;
+//	delete q;						// briši stringe, ki so bili narejeni v join in joinb. V obratnem vrstnem redu
+//	delete p;						// kot so nastajali... last in first out !!!
 
 	return 0;
 }
